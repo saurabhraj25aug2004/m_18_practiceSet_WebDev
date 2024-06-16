@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  caption {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+  }
+  

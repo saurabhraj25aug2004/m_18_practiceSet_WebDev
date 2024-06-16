@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex; /* Arrange images horizontally */
+    flex-wrap: wrap; /* Allow images to wrap to multiple lines */
+    margin: 10 auto; /* Center the gallery horizontally */
+}
+
+.gallery img {
+    margin: 30px; /* Add space between images */
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain image aspect ratio */
+}
